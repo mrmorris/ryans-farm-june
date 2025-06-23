@@ -1,5 +1,0 @@
-# The Cat
-
------
-
-* Name: Felix
