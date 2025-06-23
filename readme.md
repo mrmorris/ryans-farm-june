@@ -10,6 +10,7 @@ The animals:
 
 * [Cow](./cow.md)
 * [Dog](./dog.md)
+* [Hog](./thehog.md)
 
 ---
 
