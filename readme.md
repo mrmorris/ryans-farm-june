@@ -6,5 +6,5 @@ Welcome to Ryan's farm
 
 The animals:
 
-* [Cat](./cat.md)
+* [Cow](./cow.md)
 * [Dog](./dog.md)
