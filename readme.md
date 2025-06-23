@@ -17,3 +17,4 @@ The animals:
 
 * [Goats](./goats.md)
 * [The llama](./llama-time.md)
+* [The Zebra](./zebra.md)
