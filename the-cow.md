@@ -1,6 +1,13 @@
-# Cow
+# The Cow
 
 ----
 
-* Name: Bessie
+* Name: BERTHA
+
+---
+
+---
+
+---
+
 * Color: Mottled Brown
