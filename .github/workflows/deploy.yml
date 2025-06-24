@@ -25,9 +25,22 @@ jobs:
 
   test:
       runs-on: ubuntu-latest
+
+      needs: build
   
       steps:
         - uses: actions/checkout@v4
   
         - name: Faked out test
+          run: ls -la
+
+  deploy:
+      runs-on: ubuntu-latest
+
+      needs: build
+  
+      steps:
+        - uses: actions/checkout@v4
+  
+        - name: Faked out build
           run: ls -la
