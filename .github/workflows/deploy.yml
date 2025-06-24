@@ -16,12 +16,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: List all the files
-        run: ls -la
-
-      - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          mkdir build
+          touch build/artifact
+
+      - name: Upload the build
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: build
+          path: build/
+         
 
   test:
       runs-on: ubuntu-latest
@@ -46,3 +50,9 @@ jobs:
   
         - name: Faked out build
           run: ls -la
+
+        - name: Download a Build Artifact
+          uses: actions/download-artifact@v4.3.0
+          with:
+            name: build
+          
